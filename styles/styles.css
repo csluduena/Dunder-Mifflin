@@ -434,6 +434,28 @@ a {
     margin-top: 16rem;
     height: 18rem;
   }
+  .coming-soon {
+    margin-left: 15%;
+    margin-top: -5rem;
+  }
+  .c-soon-text {
+    font-family: "lobster14";
+    font-size: 5rem;
+    margin-top: -5rem;
+    color: white;
+    text-align: center;
+  }
+  .color-paper {
+    width: 25rem;
+    height: 23rem;
+    margin-left: 70%;
+    margin-top: -20rem;
+  }
+  .c-soon-desc {
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
 }
 @font-face {
   font-family: "lobster14";
