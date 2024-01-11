@@ -51,9 +51,10 @@
    }
    
    .img-m {
-      width: 18rem;
-      height: 20rem;
+      width: 25rem;
+      height: 27rem;
       margin: 0;
+      margin-top: -7rem;
       display:flex;
       align-items: center
    }
@@ -62,17 +63,28 @@
       display: flex;
       align-items: center;
    }
+
+   .copy-paper {
+      margin-top: 6rem;
+      margin-left: 80%;
+      width: 23rem;
+      height: 28rem;
+      position: absolute;
+      // display: flex;
+      // flex-direction: column;
+      //align-items: flex-end;
+   }
    
-   .h1-title {
+   .h1-titlew {
       display: flex;
-      justify-content: space-between;
-      margin-top: 1.5rem;
-      margin-left: 15rem;
-      margin-right: 0.5rem;
+      margin-left: 14rem;
+      margin-top: 0rem;
       padding: 0;
-      font-size: 6.5rem;
+      font-size: 8.5rem;
       font-family: Georgia;
       font-weight: normal;
+      text-align: center;
+      
    }
    
    body {
@@ -87,7 +99,7 @@
    
    .btn1 {
       display: flex;
-      margin-top:-1rem;
+      margin-top:-3rem;
       margin-left: 2.2rem;
       background-color: rgb(112, 10, 152);
       border-radius: 0.5rem;
@@ -98,36 +110,26 @@
       font-family: Georgia;
       font-weight: normal;
    }
-   
-   .copy-paper {
-      margin-top: 8rem;
-      margin-right:0;
-      width: 17rem;
-      height: 22rem;
-      display: flex;
-      flex-direction: column;
-      //align-items: flex-end;
-   }
 
    .h1-body {
       font-family: Georgia;
       font-weight: normal;
       margin-top: 0;
-      margin-left: 20rem;
-      font-size: 120px;
+      margin-left: 26rem;
+      font-size: 140px;
       color: rgb(112, 10, 152);
    }
    
    .h2-body {
       font-family: Georgia;
       font-weight: normal;
-      margin-left: 20rem;
+      margin-left: 26rem;
       margin-top: 12rem;
-      font-size: 70px;
+      font-size: 80px;
    }
    
    .h3-body {
-      margin-left: 20rem;
+      margin-left: 26rem;
       margin-top: 1rem;
       font-family: Arial, Helvetica, sans-serif;
       font-weight:normal;
@@ -135,15 +137,15 @@
    }
    
    .white-paper {
-      width: 43rem;
-      height: 27rem;
+      width: 40rem;
+      height: 25rem;
       margin-top: -27rem;
-      margin-right: 23rem;
+      margin-right: 27rem;
       float:right;
    }
    
    .comment-text {
-      margin-left: 15rem;
+      margin-left: 22rem;
       margin-top: 1rem;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       font-style: italic;
@@ -184,12 +186,24 @@
    }
    
    .logo-dm2 {
+      width: 50rem;
+      height: 50rem;
       display: block;
-      padding-top: 15rem;
-      margin-left: 35%;
-      margin-right: 35%;
+      top: 48rem;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
       position: absolute;
       z-index: -1;
-      opacity: 0.19;
+      opacity: 0.11;
+   }
+
+   .italic-text {
+      font-style: italic;
+   }
+
+   .h1-title {
+      display: none;
    }
 }
