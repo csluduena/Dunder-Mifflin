@@ -1,0 +1,56 @@
+.bgd-top {
+   background-color: white;
+   height: 11.25rem;
+}
+
+.bgd-top {
+   //fondo blanco y encierra todos
+   background-color: white;
+   height: 11.25rem;
+   display: flex;
+   align-items: center;
+}
+
+.logo-dm {
+   //encierra logo
+   width: 8rem;
+   height: 8rem;
+   margin-left: 1rem;
+   display:flex;
+   align-items: center
+}
+
+.top-left {
+   //encierre logo y nombre
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+
+.botones-top {
+   //encierre botones
+   margin-right: 1rem;
+   display:flex;
+   align-items: center;
+   text-decoration: none;
+   font-size: 1.1rem;
+}
+
+.search1 {
+   //encierre search
+   display:flex;
+   align-items: center;
+   margin-right: 1rem;
+}
+
+.logo-dm {
+   width: 8rem;
+   height: 8rem;
+   margin-left: 1.5rem;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
