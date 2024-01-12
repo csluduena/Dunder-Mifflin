@@ -373,7 +373,7 @@ a {
   }
   .btn1 {
     display: flex;
-    margin-top: -3rem;
+    margin-top: -5rem;
     margin-left: 2.2rem;
     background-color: rgb(112, 10, 152);
     border-radius: 0.5rem;
@@ -583,6 +583,33 @@ a {
     margin-bottom: 0.5rem;
   }
 }
+.banner-shop {
+  padding-top: 5rem;
+  width: 100vw;
+}
+
+.center-logoinc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.columna {
+  border: 1px solid black;
+  margin-right: 10px;
+}
+
+.fila {
+  margin: 10px;
+}
+
+.logo-paper-shop {
+  width: 20rem;
+  height: 20rem;
+  margin-top: 5rem;
+}
+
 .img-ab {
   width: 24rem;
   height: 16rem;
