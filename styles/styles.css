@@ -824,6 +824,19 @@ a {
   flex-direction: row;
 }
 
+.c-reviews-ch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h1-cr {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 4rem;
+  margin-left: 6rem;
+}
+
 @font-face {
   font-family: "lobster14";
   src: url(../fonts/Lobster\ 1.4.otf);
