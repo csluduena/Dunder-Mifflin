@@ -39,9 +39,19 @@
   font-weight: normal;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 body {
   background-color: rgb(255, 255, 255);
   min-height: 1920px;
+}
+
+body a {
+  text-decoration: none !important;
+  color: black !important;
 }
 
 .btn-fom {
@@ -288,6 +298,11 @@ a {
 }
 
 @media (min-width: 1921px) and (max-width: 4500px) {
+  body a {
+    text-decoration: none !important;
+    color: black !important;
+    font-family: Georgia !important;
+  }
   .bgd-top {
     background-color: white;
     height: 11.25rem;
@@ -323,10 +338,6 @@ a {
     height: 8rem;
     margin-left: 1.5rem;
   }
-  a {
-    text-decoration: none;
-    color: black;
-  }
   .bgd-header2 {
     background-color: rgb(176, 176, 176);
     height: 20rem;
@@ -356,7 +367,7 @@ a {
   .h1-titlew {
     display: flex;
     margin-left: 14rem;
-    margin-top: 0rem;
+    margin-top: -1rem;
     padding: 0;
     font-size: 8.5rem;
     font-family: Georgia;
@@ -598,6 +609,11 @@ a {
 .columna {
   border: 1px solid black;
   margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  text-align: center;
 }
 
 .fila {
@@ -608,6 +624,34 @@ a {
   width: 20rem;
   height: 20rem;
   margin-top: 5rem;
+}
+
+.btn-shop {
+  background-color: rgb(112, 10, 152);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  color: white;
+  margin-right: 1rem;
+  font-size: 1.1rem;
+  font-family: Georgia;
+  font-weight: normal;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.c1-d {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  padding-top: 2rem;
+}
+
+.c2-d {
+  font-size: 2rem;
+  font-weight: normal;
+  font-family: Georgia;
+  padding-top: 1rem;
+  font-weight: bold;
 }
 
 .img-ab {

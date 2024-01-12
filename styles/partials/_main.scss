@@ -33,9 +33,21 @@
    font-weight: normal;
 }
 
+a {
+   text-decoration: none;
+   color: black;
+}
+
 body {
    background-color: rgb(255, 255, 255);
    min-height: 1920px;
+}
+
+body {
+   a {
+      text-decoration: none !important;
+      color: black !important;
+   }
 }
 
 .btn-fom {
