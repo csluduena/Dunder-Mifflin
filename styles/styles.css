@@ -180,7 +180,7 @@ body {
 .c-soon-text {
   font-family: "lobster14";
   font-size: 5rem;
-  margin-top: -8rem;
+  margin-top: -10.1rem;
   color: white;
   text-align: center;
 }
@@ -265,21 +265,26 @@ a {
 
 .white-bar-footer {
   background-color: white;
-  height: 10rem;
-}
-
-.footer-copy {
-  margin-top: -5rem;
-  margin-left: 30%;
+  height: 4rem;
 }
 
 .redes-footer {
-  margin-left: 75%;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-content: normal;
+  align-items: center;
+}
+
+.footer-copy {
+  margin-right: 10rem;
 }
 
 .twitter-logo, .instagram-logo, .facebook-logo {
   width: 2rem;
   height: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 @media (min-width: 1921px) and (max-width: 4500px) {
@@ -474,7 +479,7 @@ a {
   .c-soon-text {
     font-family: "lobster14";
     font-size: 5rem;
-    margin-top: -10rem;
+    margin-top: -7.5rem;
     color: white;
     text-align: center;
   }

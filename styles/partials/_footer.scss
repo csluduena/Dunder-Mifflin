@@ -1,20 +1,23 @@
 .white-bar-footer {
    background-color: white; 
-   height: 10rem;
-}
-
-.footer-copy {
-   margin-top: -5rem;
-   margin-left: 30%;
+   height: 4rem;
 }
 
 .redes-footer {
-   margin-left: 75%;
-   
+   margin-top: 3rem;
+   display:flex;
+   justify-content: center;
+   align-content: normal;
+   align-items: center;
+}
+
+.footer-copy {
+   margin-right: 10rem;
 }
 
 .twitter-logo, .instagram-logo, .facebook-logo {
    width: 2rem;
    height: 2rem;
-   
+   margin-left: 1rem;
+   margin-right: 1rem;
 }
