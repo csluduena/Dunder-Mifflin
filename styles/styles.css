@@ -671,6 +671,10 @@ a {
   margin-bottom: 0.5rem;
 }
 
+.banner-shop {
+  max-width: 100%;
+}
+
 @font-face {
   font-family: "lobster14";
   src: url(../fonts/Lobster\ 1.4.otf);
