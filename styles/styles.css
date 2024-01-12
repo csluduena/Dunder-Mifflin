@@ -41,7 +41,7 @@
 
 body {
   background-color: rgb(255, 255, 255);
-  min-height: 1921px;
+  min-height: 1920px;
 }
 
 .btn-fom {
@@ -180,7 +180,7 @@ body {
 .c-soon-text {
   font-family: "lobster14";
   font-size: 5rem;
-  margin-top: -10.1rem;
+  margin-top: -8rem;
   color: white;
   text-align: center;
 }
@@ -243,7 +243,7 @@ body {
   display: flex;
   align-items: center;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 
 .search1 {
@@ -311,7 +311,7 @@ a {
     display: flex;
     align-items: center;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 2.1rem;
   }
   .search1 {
     display: flex;
@@ -479,7 +479,7 @@ a {
   .c-soon-text {
     font-family: "lobster14";
     font-size: 5rem;
-    margin-top: -7.5rem;
+    margin-top: -7.6rem;
     color: white;
     text-align: center;
   }
@@ -507,7 +507,42 @@ a {
     margin-left: -1rem;
     margin-top: 10rem;
   }
+  .img-ab {
+    width: 24rem;
+    height: 18rem !important;
+    margin: 0;
+    margin-top: 1.9rem !important;
+    display: flex;
+    align-items: center;
+  }
+  .img-about-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: normal;
+    align-items: baseline;
+  }
+  .img-about {
+    margin-top: 14rem;
+  }
+  .h5-about {
+    display: block;
+  }
+  .h5-about {
+    font-size: 20px;
+    color: gray;
+  }
 }
+.img-ab {
+  width: 24rem;
+  height: 16rem;
+  margin: 0;
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+}
+
 @font-face {
   font-family: "lobster14";
   src: url(../fonts/Lobster\ 1.4.otf);

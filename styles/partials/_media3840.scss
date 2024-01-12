@@ -23,7 +23,7 @@
       display:flex;
       align-items: center;
       text-decoration: none;
-      font-size: 1.1rem;
+      font-size: 2.1rem;
    }
    .search1 {
       display:flex;
@@ -39,7 +39,7 @@
       text-decoration: none;
       color: black;
    }
-   
+
    //main
    .bgd-header2 {
       background-color: rgb(176, 176, 176);
@@ -221,7 +221,7 @@
    .c-soon-text {
       font-family: "lobster14";
       font-size: 5rem;
-      margin-top: -7.5rem;
+      margin-top: -7.6rem;
       color: white;
       text-align: center;
    }
@@ -252,6 +252,41 @@
       margin-left: -1rem;
       margin-top: 10rem;
    }
+
+//about
+   .img-ab {
+      width: 24rem;
+      height: 18rem !important;
+      margin: 0;
+      margin-top: 1.9rem !important;
+      display:flex;
+      align-items: center
+   }
+
+   .img-about-content {
+      display:flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: normal;
+      align-items: baseline;
+   }
+
+   .img-about {
+      margin-top: 14rem;
+   }
+
+   .h5-about {
+      display: block;
+   }
+   
+   .h5-about {
+      font-size: 20px;
+      color:gray;
+   }
+
+
+
 
 
 
