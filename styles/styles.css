@@ -533,6 +533,22 @@ a {
     font-size: 20px;
     color: gray;
   }
+  .text-historia {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2rem;
+  }
+  .historiah1 {
+    margin-top: 4rem;
+    font-size: 50px;
+  }
+  .text-his {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
 }
 .img-ab {
   width: 24rem;
