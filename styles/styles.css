@@ -174,13 +174,13 @@ body {
 
 .coming-soon {
   margin-left: 15%;
-  margin-top: -5rem;
+  margin-top: -6rem;
 }
 
 .c-soon-text {
   font-family: "lobster14";
   font-size: 5rem;
-  margin-top: -5rem;
+  margin-top: -8rem;
   color: white;
   text-align: center;
 }
@@ -196,6 +196,20 @@ body {
   color: white;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.btn2 {
+  margin-top: 0rem;
+  margin-left: 2.2rem;
+  background-color: rgb(112, 10, 152);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  color: white;
+  font-size: 1.1rem;
+  font-family: Georgia;
+  font-weight: normal;
+  margin-left: -1rem;
+  margin-top: 10rem;
 }
 
 .bgd-top {
@@ -247,6 +261,25 @@ body {
 a {
   text-decoration: none;
   color: black;
+}
+
+.white-bar-footer {
+  background-color: white;
+  height: 10rem;
+}
+
+.footer-copy {
+  margin-top: -5rem;
+  margin-left: 30%;
+}
+
+.redes-footer {
+  margin-left: 75%;
+}
+
+.twitter-logo, .instagram-logo, .facebook-logo {
+  width: 2rem;
+  height: 2rem;
 }
 
 @media (min-width: 1921px) and (max-width: 4500px) {
@@ -441,7 +474,7 @@ a {
   .c-soon-text {
     font-family: "lobster14";
     font-size: 5rem;
-    margin-top: -5rem;
+    margin-top: -10rem;
     color: white;
     text-align: center;
   }
@@ -455,6 +488,19 @@ a {
     color: white;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .btn2 {
+    margin-top: 0rem;
+    margin-left: 2.2rem;
+    background-color: rgb(112, 10, 152);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    font-size: 1.1rem;
+    font-family: Georgia;
+    font-weight: normal;
+    margin-left: -1rem;
+    margin-top: 10rem;
   }
 }
 @font-face {
