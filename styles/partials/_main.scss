@@ -43,11 +43,12 @@ body {
    min-height: 1920px;
 }
 
-body {
-   a {
-      text-decoration: none !important;
-      color: black !important;
-   }
+.botones-top {
+   margin-right: 1rem;
+   display:flex;
+   align-items: center;
+   text-decoration: none;
+   font-size: 2.1rem;
 }
 
 .btn-fom {
@@ -58,7 +59,7 @@ body {
 
 .btn1 {
    display: flex;
-   margin-top: 0rem;
+   margin-top: -1.5rem;
    margin-left: 2.2rem;
    background-color: rgb(112, 10, 152);
    border-radius: 0.5rem;

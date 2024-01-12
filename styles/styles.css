@@ -49,9 +49,12 @@ body {
   min-height: 1920px;
 }
 
-body a {
-  text-decoration: none !important;
-  color: black !important;
+.botones-top {
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 2.1rem;
 }
 
 .btn-fom {
@@ -62,7 +65,7 @@ body a {
 
 .btn1 {
   display: flex;
-  margin-top: 0rem;
+  margin-top: -1.5rem;
   margin-left: 2.2rem;
   background-color: rgb(112, 10, 152);
   border-radius: 0.5rem;
@@ -298,11 +301,6 @@ a {
 }
 
 @media (min-width: 1921px) and (max-width: 4500px) {
-  body a {
-    text-decoration: none !important;
-    color: black !important;
-    font-family: Georgia !important;
-  }
   .bgd-top {
     background-color: white;
     height: 11.25rem;
@@ -346,10 +344,10 @@ a {
     display: flex;
   }
   .img-m {
-    width: 25rem;
-    height: 27rem;
+    width: 24rem;
+    height: 26rem;
     margin: 0;
-    margin-top: -7rem;
+    margin-top: -6rem;
     display: flex;
     align-items: center;
   }
@@ -367,7 +365,7 @@ a {
   .h1-titlew {
     display: flex;
     margin-left: 14rem;
-    margin-top: -1rem;
+    margin-top: -0.6rem;
     padding: 0;
     font-size: 8.5rem;
     font-family: Georgia;
@@ -384,8 +382,8 @@ a {
   }
   .btn1 {
     display: flex;
-    margin-top: -5rem;
-    margin-left: 2.2rem;
+    margin-top: -1.5rem;
+    margin-left: 3rem;
     background-color: rgb(112, 10, 152);
     border-radius: 0.5rem;
     padding: 0.5rem;
@@ -654,6 +652,12 @@ a {
   font-weight: bold;
 }
 
+.img-top-shopo {
+  width: 24rem;
+  height: 23rem;
+  margin-top: -3rem;
+}
+
 .img-ab {
   width: 24rem;
   height: 16rem;
@@ -744,6 +748,80 @@ a {
 
 .banner-shop {
   max-width: 100%;
+}
+
+.center-logoinc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.columna {
+  border: 1px solid black;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  text-align: center;
+}
+
+.fila {
+  margin: 10px;
+}
+
+.logo-paper-shop {
+  width: 20rem;
+  height: 20rem;
+  margin-top: 5rem;
+}
+
+.btn-shop {
+  background-color: rgb(112, 10, 152);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  color: white;
+  margin-right: 1rem;
+  font-size: 1.1rem;
+  font-family: Georgia;
+  font-weight: normal;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.c1-d {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  padding-top: 2rem;
+}
+
+.c2-d {
+  font-size: 1.2rem;
+  font-weight: normal;
+  font-family: Georgia;
+  padding-top: 1rem;
+  font-weight: bold;
+}
+
+.img-top-shopo {
+  width: 24rem;
+  height: 23rem;
+  margin-top: -3rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  text-align: center;
+}
+
+.fila {
+  display: flex;
+  flex-direction: row;
 }
 
 @font-face {
