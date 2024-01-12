@@ -15,7 +15,7 @@
    //encierra logo
    width: 8rem;
    height: 8rem;
-   margin-left: 1rem;
+   // margin-left: 1rem;
    display:flex;
    align-items: center
 }
@@ -23,30 +23,28 @@
 .top-left {
    //encierre logo y nombre
    display: flex;
-   justify-content: space-between;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-around;
    width: 100%;
+   margin-left:5rem;
 }
 
 .botones-top {
    //encierre botones
-   margin-right: 1rem;
+   // margin-right: 1rem;
    display:flex;
    align-items: center;
    text-decoration: none;
    font-size: 1.5rem;
+   margin-left: 5.5rem;
 }
 
 .search1 {
    //encierre search
    display:flex;
    align-items: center;
-   margin-right: 1rem;
-}
-
-.logo-dm {
-   width: 8rem;
-   height: 8rem;
-   margin-left: 1.5rem;
+   margin-right:5rem;
 }
 
 a {
