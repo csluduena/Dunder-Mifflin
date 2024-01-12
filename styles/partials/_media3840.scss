@@ -291,25 +291,54 @@
       margin-left: 30%;
       margin-right: 30%;
       margin-top: 2rem;
+      margin-bottom: 4rem;
    }
    .historiah1 {
       margin-top: 4rem;
-      font-size: 50px;
+      font-size: 60px;
    }
 
    .text-his {
-      font-size: 16px;
+      font-size: 22px;
       font-weight: normal; 
       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      padding-top: 2rem;
    }
 
+   .text-violet {
+      // color: rgb(112, 10, 152);
+      color:white;
+      text-align: center;
+      font-size: 40px;
+      font-family: "lobster14";
+      padding-top: 2rem;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+   }
 
+   .btn-ssc {
+      display:flex;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      background-color: rgb(112, 10, 152);
+      border-radius: 0.5rem;
+      padding: 0.5rem;
+      color: white;
+      font-size: 2rem;
+      font-family: Georgia;
+      font-weight: normal;
+   }
 
+   .gray-color {
+      padding-bottom: 2rem; 
+      // background-color: gray;
+      background-color: #01518A;
+   }
 
-
-
-
-
-
-
+   .boton-subs {
+      margin-bottom: 0.5rem;
+   }
 }
