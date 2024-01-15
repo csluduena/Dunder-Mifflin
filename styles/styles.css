@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 @media (min-width: 1921px) and (max-width: 6500px) {
   .bgd-top {
     height: 11.25rem;
@@ -359,6 +364,19 @@
     position: relative;
     top: 34rem;
     justify-content: center;
+  }
+  .Costumer1 {
+    margin-bottom: -2rem;
+    width: 35%;
+    height: 7%;
+  }
+  .h1-cr {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    margin-right: 25rem;
+    text-align: center;
   }
   .cust-reviews {
     position: relative;
@@ -961,6 +979,18 @@
     position: absolute;
     top: 33rem;
   }
+  .h1-cr {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    margin-right: 25rem;
+    text-align: center;
+  }
+  .Costumer1 {
+    width: 37%;
+    height: 7%;
+  }
   .shop3 {
     position: relative;
     top: 34rem;
@@ -1270,7 +1300,7 @@
   }
   .iframe-map {
     position: relative;
-    top: 19rem;
+    top: 10rem;
     z-index: -2;
   }
   .img-shop-ctc {
@@ -1308,12 +1338,12 @@
   }
   .h1-titleshop {
     display: inline;
-    top: 9.8rem;
+    top: 4.8rem;
     left: 0;
     right: 0;
     margin: auto;
     padding: 0;
-    font-size: 5rem;
+    font-size: 2rem;
     font-family: Georgia;
     font-weight: normal;
     text-align: center;
@@ -1322,12 +1352,12 @@
   }
   .h1-titlecont {
     display: inline;
-    top: 8.2rem;
+    top: 4.7rem;
     left: 0;
     right: 0;
     margin: auto;
     padding: 0;
-    font-size: 5rem;
+    font-size: 2rem;
     font-family: Georgia;
     font-weight: normal;
     text-align: center;
@@ -1353,30 +1383,18 @@
     flex-direction: column;
     align-items: flex-start;
   }
-  .btn1c {
-    margin-top: -1.5rem;
-    margin-left: 24rem;
-    background-color: #700a98;
-    border-radius: 0.5rem;
-    padding: 0.5rem;
-    color: white;
-    margin-right: 1rem;
-    font-size: 1.1rem;
-    font-family: Georgia;
-    font-weight: normal;
-  }
   .btn1 {
     display: flex;
-    margin-top: -1.5rem;
-    margin-left: 24rem;
+    justify-content: center;
     background-color: rgb(112, 10, 152);
     border-radius: 0.5rem;
     padding: 0.5rem;
     color: white;
-    margin-right: 1rem;
-    font-size: 1.1rem;
+    font-size: 14px;
     font-family: Georgia;
-    font-weight: normal;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 12rem;
   }
   .boton-encer {
     display: flex;
@@ -1518,24 +1536,28 @@
   .h5-about {
     font-size: 20px;
     color: gray;
-    left: 25%;
+    left: 7%;
     position: relative;
+    top: -14rem;
   }
   .text-historia {
     margin-top: 2rem;
-    left: 5%;
+    left: -15%;
     position: relative;
+    top: -12rem;
   }
   .text-his {
-    font-size: 25px !important;
+    font-size: 20px;
     font-weight: normal;
     padding-top: 2rem;
     font-family: Georgia, "Times New Roman", Times, serif;
+    position: absolute;
+    top: 13rem;
   }
   .text-violet {
     color: white;
     text-align: center;
-    font-size: 40px;
+    font-size: 20px !important;
     font-family: "lobster14";
     padding-top: 2rem;
     margin-top: 1rem;
@@ -1552,7 +1574,7 @@
     border-radius: 0.5rem;
     padding: 0.5rem;
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
     font-family: Georgia;
     font-weight: normal;
   }
@@ -1561,7 +1583,7 @@
     position: absolute;
     width: 100%;
     background-color: #01518a;
-    top: 98rem;
+    top: 65rem;
     display: block;
   }
   .boton-subs {
@@ -1569,12 +1591,16 @@
   }
   .dmlogo-b {
     position: absolute;
-    top: 33rem;
+    top: 10rem;
+    height: 130px;
+    width: 400px;
   }
-  .shop3 {
-    position: relative;
-    top: 34rem;
-    justify-content: center;
+  .shop768 {
+    font-size: 10px;
+    font-weight: normal;
+    font-family: Georgia;
+    padding-top: 1rem;
+    font-weight: bold;
   }
   .cust-reviews {
     position: relative;
@@ -1583,16 +1609,21 @@
   .banner-shop {
     position: absolute;
     padding-top: 28rem;
-    top: 121rem;
+    top: 42rem;
     min-width: 100%;
     max-width: 100%;
   }
-  .banner-ctc-c {
+  .banner-ctc-c768 {
     position: absolute;
     padding-top: 5rem;
-    top: 103rem;
+    top: 81rem;
     min-width: 100%;
     max-width: 100%;
+  }
+  .container-shop3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .center-logoinc {
     display: flex;
@@ -1605,42 +1636,40 @@
     margin-right: 10px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-content: center;
     text-align: center;
+    align-items: center;
   }
   .fila {
     margin: 10px;
   }
   .logo-paper-shop {
-    width: 20rem;
-    height: 20rem;
-    margin-top: 5rem;
+    width: 8rem;
+    height: 8rem;
+    margin-top: 1rem;
+    padding: 10px;
   }
-  .btn-shop {
+  .shop3 {
+    position: absolute;
+    top: 18rem;
+  }
+  .btns768 {
     background-color: rgb(112, 10, 152);
     border-radius: 0.5rem;
     padding: 0.5rem;
     color: white;
-    margin-right: 1rem;
-    font-size: 1.1rem;
+    font-size: 12px;
     font-family: Georgia;
     font-weight: normal;
     margin-top: 3rem;
     margin-bottom: 3rem;
   }
-  .c1-d {
-    font-size: 2rem;
+  .h768 {
+    font-size: 10px;
     font-weight: bold;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     padding-top: 2rem;
-  }
-  .c2-d {
-    font-size: 2rem;
-    font-weight: normal;
-    font-family: Georgia;
-    padding-top: 1rem;
-    font-weight: bold;
   }
   .img-top-shopo {
     width: 24rem;
@@ -1652,6 +1681,14 @@
     margin-left: 20%;
     margin-right: 20%;
     position: relative;
+  }
+  .h1-cr768 {
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    margin-right: 15rem;
+    text-align: center;
   }
   .container-indx {
     display: grid;
@@ -1674,6 +1711,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-end;
+  }
+  .c768r {
+    margin-bottom: -2rem;
+    width: 60%;
   }
   .item-b {
     display: flex;
@@ -1704,7 +1745,7 @@
     height: 8rem;
     position: absolute;
     width: 100%;
-    top: 115rem;
+    top: 78rem;
     display: block;
   }
   .white-bar-footer {
@@ -1715,12 +1756,12 @@
     top: 158rem;
     display: block;
   }
-  .white-bar-footer-ctc {
+  .wctc768 {
     background-color: white;
     height: 4rem;
     position: absolute;
     width: 100%;
-    top: 121rem;
+    top: 92rem;
     display: block;
   }
   .index-wbf {
@@ -1737,7 +1778,7 @@
     height: 4rem;
     position: absolute;
     width: 100%;
-    top: 161.5rem;
+    top: 77rem;
     display: block;
   }
   footer .redes-footer-cont1080 {
@@ -1771,15 +1812,17 @@
     right: 25%;
   }
   .img-about-1 {
-    left: 15%;
     position: relative;
+    top: -14rem;
+    width: 450px;
+    height: 270px;
   }
   .container-contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     gap: 10px;
-    margin-top: 25rem;
+    margin-top: 13rem;
     margin-left: 20%;
     margin-right: 20%;
   }
@@ -1788,17 +1831,20 @@
   }
   .h2contact-t {
     margin-bottom: 2rem;
-    font-size: 35px;
+    font-size: 20px;
   }
   .h2contact {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: normal;
+  }
+  .dire768 {
+    font-size: 10px;
   }
   .cc1 {
     margin-top: 0.7rem;
   }
-  .h4contact, .h5contact, .direct {
-    font-size: 20px;
+  .h4contact, .h5contact {
+    font-size: 14px;
   }
   .direct {
     font-weight: bold;
@@ -1819,10 +1865,6 @@
     width: 273.24px !important;
     resize: vertical;
   }
-  .f-btnc {
-    display: flex;
-    justify-content: flex-end;
-  }
   .btn-c {
     margin-top: 1rem;
     width: 80px;
@@ -1832,148 +1874,6 @@
     font-size: 20px;
   }
 }
-.img-ab {
-  width: 24rem;
-  height: 16rem;
-  margin: 0;
-  margin-top: 4rem;
-  display: flex;
-  align-items: center;
-}
-
-.img-about-content {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: normal;
-  align-items: baseline;
-}
-
-.img-about {
-  margin-top: 14rem;
-}
-
-.h5-about {
-  display: block;
-}
-
-.h5-about {
-  font-size: 20px;
-  color: gray;
-}
-
-.historiah1 {
-  font-size: 60px;
-}
-
-.text-historia {
-  margin-top: 2rem;
-}
-
-.text-his {
-  font-size: 16px;
-  font-weight: normal;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  padding-top: 2rem;
-}
-
-.text-violet {
-  color: white;
-  text-align: center;
-  font-size: 40px;
-  font-family: "lobster14";
-  padding-top: 2rem;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-}
-
-.btn-ssc {
-  display: flex;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  background-color: rgb(112, 10, 152);
-  border-radius: 0.5rem;
-  padding: 0.5rem;
-  color: white;
-  font-size: 2rem;
-  font-family: Georgia;
-  font-weight: normal;
-  border-radius: 2rem;
-}
-
-.boton-subs {
-  margin-bottom: 0.5rem;
-}
-
-.banner-shop {
-  max-width: 100%;
-}
-
-.center-logoinc {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 5rem;
-}
-
-.columna {
-  border: 1px solid black;
-  margin-right: 10px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
-  text-align: center;
-}
-
-.fila {
-  margin: 10px;
-}
-
-.logo-paper-shop {
-  width: 20rem;
-  height: 20rem;
-  margin-top: 5rem;
-}
-
-.btn-shop {
-  background-color: rgb(112, 10, 152);
-  border-radius: 0.5rem;
-  padding: 0.5rem;
-  color: white;
-  margin-right: 1rem;
-  font-size: 1.1rem;
-  font-family: Georgia;
-  font-weight: normal;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
-.c1-d {
-  font-size: 1rem;
-  font-weight: bold;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  padding-top: 2rem;
-}
-
-.c2-d {
-  font-size: 1.2rem;
-  font-weight: normal;
-  font-family: Georgia;
-  padding-top: 1rem;
-  font-weight: bold;
-}
-
-.img-top-shopo {
-  width: 24rem;
-  height: 23rem;
-  margin-top: -3rem;
-}
-
 .container {
   display: flex;
   flex-direction: column;
@@ -1991,20 +1891,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.h1-cr {
-  font-size: 2.5rem;
-  font-weight: bold;
-  padding-top: 4rem;
-  padding-bottom: 1rem;
-  margin-right: 25rem;
-  text-align: center;
-}
-
-.Costumer1 {
-  width: 37%;
-  height: 7%;
 }
 
 .white-bar-footer {

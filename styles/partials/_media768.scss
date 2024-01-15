@@ -62,7 +62,7 @@
 
     .iframe-map {
         position: relative;
-        top: 19rem;
+        top: 10rem;
         z-index: -2;
     }
 
@@ -107,13 +107,13 @@
     .h1-titleshop {
         display: inline;
         // margin-left: 5%;
-        top: 9.8rem;
+        top: 4.8rem;
         left:0;
         right:0;
         margin: auto;
         // margin-right: 5%;
         padding: 0;
-        font-size: 5rem;
+        font-size: 2rem;
         font-family: Georgia;
         font-weight: normal;
         text-align: center;
@@ -124,13 +124,13 @@
     .h1-titlecont {
         display: inline;
         // margin-left: 5%;
-        top: 8.2rem;
+        top: 4.7rem;
         left:0;
         right:0;
         margin: auto;
         // margin-right: 5%;
         padding: 0;
-        font-size: 5rem;
+        font-size: 2rem;
         font-family: Georgia;
         font-weight: normal;
         text-align: center;
@@ -164,32 +164,20 @@
         align-items: flex-start;
     }
 
-    .btn1c {
-        
-        margin-top: -1.5rem;
-        margin-left: 24rem;
-        background-color: #700a98;
-        border-radius: 0.5rem;
-        padding: 0.5rem;
-        color: white;
-        margin-right: 1rem;
-        font-size: 1.1rem;
-        font-family: Georgia;
-        font-weight: normal;
-    }
+    
 
     .btn1 {
         display: flex;
-        margin-top: -1.5rem;
-        margin-left: 24rem;
+        justify-content: center;
         background-color: rgb(112, 10, 152);
         border-radius: 0.5rem;
         padding: 0.5rem;
         color: white;
-        margin-right: 1rem;
-        font-size: 1.1rem;
+        font-size: 14px;
         font-family: Georgia;
-        font-weight: normal;
+        text-align: center;
+        font-weight: bold;
+        margin-left: 12rem;
     }
 
     .boton-encer {
@@ -354,28 +342,32 @@
     .h5-about {
         font-size: 20px;
         color: gray;
-        left: 25%;
+        left: 7%;
         position: relative;
+        top: -14rem;
     }
 
     .text-historia {
         margin-top: 2rem;
-        left: 5%;
+        left: -15%;
         position: relative;
+        top: -12rem;
     }
     
     .text-his {
-        font-size: 25px !important;
+        font-size: 20px;
         font-weight: normal;
         padding-top: 2rem;
         font-family: Georgia, "Times New Roman", Times, serif;
+        position: absolute;
+        top:13rem;
     }
 
     .text-violet {
         // color: rgb(112, 10, 152);
         color: white;
         text-align: center;
-        font-size: 40px;
+        font-size: 20px !important;
         font-family: "lobster14";
         padding-top: 2rem;
         margin-top: 1rem;
@@ -393,7 +385,7 @@
         border-radius: 0.5rem;
         padding: 0.5rem;
         color: white;
-        font-size: 2rem;
+        font-size: 1rem;
         font-family: Georgia;
         font-weight: normal;
     }
@@ -404,7 +396,7 @@
         position: absolute;
         width: 100%;
         background-color: #01518a;
-        top: 98rem;
+        top: 65rem;
         display: block;
     }
 
@@ -415,13 +407,17 @@
     //SHOP
     .dmlogo-b {
         position: absolute;
-        top: 33rem;
+        top: 10rem;
+        height: 130px;
+        width: 400px;
     }
 
-    .shop3 {
-        position:relative;
-        top: 34rem;
-        justify-content: center
+    .shop768 {
+        font-size: 10px;
+        font-weight: normal;
+        font-family: Georgia;
+        padding-top: 1rem;
+        font-weight: bold;
     }
     
     .cust-reviews {
@@ -432,105 +428,131 @@
     .banner-shop {
         position: absolute;
         padding-top: 28rem;
-        top: 121rem;
+        top: 42rem;
         min-width: 100%;
         max-width: 100%;
     }
 
-    .banner-ctc-c {
+    .banner-ctc-c768 {
         position: absolute;
         padding-top: 5rem;
-        top: 103rem;
+        top: 81rem;
         min-width: 100%;
         max-width: 100%;
+    }
+
+    .container-shop3 {
+        display:flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .center-logoinc {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5rem;
     }
 
     .columna {
-    border: 1px solid black;
-    margin-right: 10px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    text-align: center;
+        border: 1px solid black;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        text-align: center;
+        align-items: center;
     }
 
     .fila {
-    margin: 10px;
+        margin: 10px;
     }
 
-    .logo-paper-shop {
-    width: 20rem;
-    height: 20rem;
-    margin-top: 5rem;
+        .logo-paper-shop {
+        width: 8rem;
+        height: 8rem;
+        margin-top: 1rem;
+        padding: 10px;
     }
 
-    .btn-shop {
-    background-color: rgb(112, 10, 152);
-    border-radius: 0.5rem;
-    padding: 0.5rem;
-    color: white;
-    margin-right: 1rem;
-    font-size: 1.1rem;
-    font-family: Georgia;
-    font-weight: normal;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    .shop3 {
+        position: absolute;
+        top: 18rem;
     }
 
-    .c1-d {
-    font-size: 2rem;
-    font-weight: bold;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-        "Lucida Sans", Arial, sans-serif;
-    padding-top: 2rem;
+    // .btn-shop {
+    //     background-color: rgb(112, 10, 152);
+    //     border-radius: 0.5rem;
+    //     padding: 0.5rem;
+    //     color: white;
+    //     margin-right: 1rem;
+    //     font-size: 1.1rem;
+    //     font-family: Georgia;
+    //     font-weight: normal;
+    //     margin-top: 3rem;
+    //     margin-bottom: 3rem;
+    // }
+
+    .btns768 {
+        background-color: rgb(112, 10, 152);
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        color: white;
+        font-size: 12px;
+        font-family: Georgia;
+        font-weight: normal;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
 
-    .c2-d {
-    font-size: 2rem;
-    font-weight: normal;
-    font-family: Georgia;
-    padding-top: 1rem;
-    font-weight: bold;
+    .h768 {
+        font-size: 10px;
+        font-weight: bold;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+            "Lucida Sans", Arial, sans-serif;
+        padding-top: 2rem;
     }
 
     .img-top-shopo {
-    width: 24rem;
-    height: 23rem;
-    margin-top: -3rem;
+        width: 24rem;
+        height: 23rem;
+        margin-top: -3rem;
     }
 
     .content-pr {
-    display: flex;
-    margin-left: 20%;
-    margin-right: 20%;
-    position: relative;
+        display: flex;
+        margin-left: 20%;
+        margin-right: 20%;
+        position: relative;
+    }
+    
+    .h1-cr768 {
+        font-size: 13px;
+        font-weight: bold; 
+        padding-top: 4rem;
+        padding-bottom: 1rem;
+        margin-right: 15rem;
+        text-align: center;
     }
 
     .container-indx {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin: 20px;
-    top: 15.5rem;
-    position: absolute;
-    gap: 18px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: 20px;
+        top: 15.5rem;
+        position: absolute;
+        gap: 18px;
     
     }
 
     .item {
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    min-height: 0;
-    overflow: auto;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        min-height: 0;
+        overflow: auto;
     }
 
     .item-a {
@@ -539,7 +561,14 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-end;
-        
+    }
+
+    .c768r {
+        margin-bottom: -2rem;
+        // width: 550px;
+        // height: 125px;
+        width: 60%;
+
     }
     
     .item-b {
@@ -582,7 +611,7 @@
         height: 8rem;
         position: absolute;
         width: 100%;
-        top: 115rem;
+        top: 78rem;
         display: block;
     }
 
@@ -595,12 +624,12 @@
         display: block;
     }
 
-    .white-bar-footer-ctc {
+    .wctc768 {
         background-color: white; 
         height: 4rem;
         position: absolute;
         width: 100%;
-        top: 121rem;
+        top: 92rem;
         display: block;
     }
 
@@ -620,7 +649,7 @@
             height: 4rem;
             position: absolute;
             width: 100%;
-            top: 161.5rem;
+            top: 77rem;
             display: block;
         }
     
@@ -661,8 +690,10 @@
     }
 
     .img-about-1 {
-        left: 15%;
         position: relative;
+        top:-14rem;
+        width: 450px;
+        height: 270px;
     }
 
     .container-contact {
@@ -670,7 +701,7 @@
         grid-template-columns: 1fr 1fr;
         justify-items: center;
         gap: 10px;
-        margin-top: 25rem;
+        margin-top: 13rem;
         margin-left: 20%;
         margin-right: 20%;
     }
@@ -681,20 +712,24 @@
     
     .h2contact-t {
         margin-bottom: 2rem;
-        font-size: 35px;
+        font-size: 20px;
     }
-    
+
     .h2contact {
-        font-size: 30px;
+        font-size: 20px;
         font-weight: normal;
+    }
+
+    .dire768 {
+        font-size: 10px;
     }
     
     .cc1 {
         margin-top: 0.7rem;
     }
     
-    .h4contact, .h5contact, .direct {
-        font-size: 20px;
+    .h4contact, .h5contact {
+        font-size: 14px;
     }
     
     .direct {
@@ -709,7 +744,7 @@
     
     .mb-3 {
         display:flex;
-        flex-direction: column;;
+        flex-direction: column;
     }
     
     .cg-c {
@@ -719,11 +754,6 @@
     textarea {
         width: 273.24px !important;
         resize: vertical;
-    }
-    
-    .f-btnc {
-        display:flex;
-        justify-content: flex-end
     }
     
     .btn-c {
