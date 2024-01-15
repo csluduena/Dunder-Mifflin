@@ -1,4 +1,4 @@
-@media (min-width: 1921px) and (max-width: 6500px) {
+@media (min-width: 900px) and (max-width: 1920px) {
     //head-area
     .bgd-top {
         height: 11.25rem;
@@ -74,7 +74,7 @@
 
     .img-shop-ctc{
         margin: 0;
-        margin-top: -9.37rem;
+        margin-top: -7.8rem;
         display: flex;
         align-items: center;
         position: absolute;
@@ -96,13 +96,13 @@
     .h1-titlew {
         display: inline;
         // margin-left: 5%;
-        top: 12rem;
+        top: 9.8rem;
         left:0;
         right:0;
         margin: auto;
         // margin-right: 5%;
         padding: 0;
-        font-size: 5.5rem;
+        font-size: 5rem;
         font-family: Georgia;
         font-weight: normal;
         text-align: center;
@@ -113,13 +113,13 @@
     .h1-titleshop {
         display: inline;
         // margin-left: 5%;
-        top: 12rem;
+        top: 9.8rem;
         left:0;
         right:0;
         margin: auto;
         // margin-right: 5%;
         padding: 0;
-        font-size: 5.5rem;
+        font-size: 5rem;
         font-family: Georgia;
         font-weight: normal;
         text-align: center;
@@ -130,13 +130,13 @@
     .h1-titlecont {
         display: inline;
         // margin-left: 5%;
-        top: 12rem;
+        top: 8.2rem;
         left:0;
         right:0;
         margin: auto;
         // margin-right: 5%;
         padding: 0;
-        font-size: 5.5rem;
+        font-size: 5rem;
         font-family: Georgia;
         font-weight: normal;
         text-align: center;
@@ -225,7 +225,7 @@
         width: 23rem;
         height: 15rem;
         margin-top: 1rem;
-        margin-right: 12rem;
+        margin-right: -1rem;
         float: right;
     }
 
@@ -293,7 +293,7 @@
     .c-soon-text {
         font-family: "lobster14";
         font-size: 5rem;
-        margin-top: -7.6rem;
+        margin-top: -8.6rem;
         color: white;
         text-align: center;
     }
@@ -429,11 +429,11 @@
         position: relative;
         top: 33rem;
     }
-
+    
     .banner-shop {
         position: absolute;
-        padding-top: 5rem;
-        top: 148rem;
+        padding-top: 28rem;
+        top: 121rem;
         min-width: 100%;
         max-width: 100%;
     }
@@ -441,7 +441,9 @@
     .banner-ctc-c {
         position: absolute;
         padding-top: 5rem;
+        top: 103rem;
         min-width: 100%;
+        max-width: 100%;
     }
 
     .center-logoinc {
@@ -507,29 +509,29 @@
     }
 
     .content-pr {
-        display: flex;
-        margin-left: 20%;
-        margin-right: 20%;
-        position: relative;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    position: relative;
     }
 
     .container-indx {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        margin: 20px;
-        top: 34rem;
-        position: absolute;
-        gap: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 20px;
+    top: 34rem;
+    position: absolute;
+    gap: 10rem;
     
     }
 
     .item {
-        display: flex;
-        flex-direction: column;
-        min-width: 0;
-        min-height: 0;
-        overflow: auto;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    min-height: 0;
+    overflow: auto;
     }
 
     .item-a {
@@ -570,15 +572,6 @@
     }
 
 //FOOTER
-    .white-bar-footer-shop {
-        background-color: white; 
-        height: 4rem;
-        position: absolute;
-        width: 100%;
-        top: 170rem;
-        display: block;
-    }
-
     .white-bar-footer-about {
         background-color: white; 
         height: 8rem;
@@ -597,15 +590,13 @@
         display: block;
     }
 
-    footer {
-        .white-bar-footer-ctc {
-            background-color: white; 
-            height: 4rem;
-            position: absolute;
-            width: 100%;
-            top: 125.5rem;
-            display: block;
-        }
+    .white-bar-footer-ctc {
+        background-color: white; 
+        height: 4rem;
+        position: absolute;
+        width: 100%;
+        top: 121rem;
+        display: block;
     }
 
     .index-wbf {
@@ -613,14 +604,23 @@
         height: 8rem;
         position: absolute;
         width: 100%;
-        top: 131em;
+        top: 130em;
         display: block;
         z-index: -1;
     }
-
+    
     footer {
-        .redes-footer1921 {
-            margin-top: 3rem;
+        .white-bar-footer-shop {
+            background-color: white; 
+            height: 4rem;
+            position: absolute;
+            width: 100%;
+            top: 161.5rem;
+            display: block;
+        }
+    
+        .redes-footer-cont1080 {
+            margin-top: 1rem;
             display:flex;
             justify-content: center;
             align-content: normal;
@@ -668,10 +668,6 @@
         margin-left: 20%;
         margin-right: 20%;
     }
-
-    
-
-
 
     .item {
         padding: 10px;
@@ -733,5 +729,4 @@
     .form-label {
         font-size: 20px;
     }
-
 }

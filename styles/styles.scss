@@ -1,13 +1,16 @@
 @import "./partials/variables";
 @import "./partials/reset";
 @import "./partials/main";
-@import "./partials/head-area";
-@import "./partials/footer";
 @import "./partials/media3840";
+@import "./partials/media1080";
+@import "./partials/media768";
 @import "./partials/about";
 @import "./partials/shop";
 @import "./partials/contact";
-@import "./partials/768";
+@import "./partials/head-area";
+@import "./partials/footer";
+
+
 
 @font-face {
     font-family: "lobster14";
