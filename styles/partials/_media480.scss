@@ -1,4 +1,4 @@
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 479px) and (max-width: 767px) {
     //head-area
     .bgd-top {
         display: flex;
@@ -88,13 +88,13 @@
     .h1-titlew {
         display: inline;
         // margin-left: 5%;
-        top: 5.5rem;
+        top: 5.8rem;
         left:0;
         right:0;
         margin: auto;
         // margin-right: 5%;
         padding: 0;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         font-family: Georgia;
         font-weight: normal;
         text-align: center;
@@ -105,13 +105,13 @@
     .h1-titleshop {
         display: inline;
         // margin-left: 5%;
-        top: 4.8rem;
+        top: 4.7rem;
         left:0;
         right:0;
         margin: auto;
         // margin-right: 5%;
         padding: 0;
-        font-size: 2rem;
+        font-size: 18px;
         font-family: Georgia;
         font-weight: normal;
         text-align: center;
@@ -232,7 +232,7 @@
     }
 
     .h3-3-body {
-        display: none;
+        display:none;
     }
 
     .h3-3-body480 {
@@ -247,7 +247,7 @@
         width: 20rem;
         height: 20rem;
         display: block;
-        top: 18rem;
+        top: 10rem;
         left: 0;
         right: 0;
         bottom: 0;
@@ -270,7 +270,7 @@
         position: absolute;
         width: 100%;
         background-color: #01518a;
-        top: 50rem;
+        top: 39rem;
         display: block;
         height: 8rem;
     }
@@ -345,34 +345,36 @@
     }
 
     .h5-about {
-        font-size: 20px;
+        font-size: 12px;
         color: gray;
-        left: 7%;
+        left: 5.5%;
         position: relative;
-        top: -14rem;
+        top: -18rem;
     }
 
     .text-historia {
         margin-top: 2rem;
         left: -15%;
         position: relative;
-        top: -12rem;
+        top: -18rem;
     }
     
     .text-his {
-        font-size: 20px;
+        left: 1%;
+        right: 1%;
+        font-size: 13px;
         font-weight: normal;
         padding-top: 2rem;
         font-family: Georgia, "Times New Roman", Times, serif;
         position: absolute;
-        top:13rem;
+        top:-2rem;
     }
 
     .text-violet {
         // color: rgb(112, 10, 152);
         color: white;
         text-align: center;
-        font-size: 20px !important;
+        font-size: 16px !important;
         font-family: "lobster14";
         padding-top: 2rem;
         margin-top: 1rem;
@@ -390,7 +392,7 @@
         border-radius: 0.5rem;
         padding: 0.5rem;
         color: white;
-        font-size: 1rem;
+        font-size: 10px;
         font-family: Georgia;
         font-weight: normal;
     }
@@ -401,8 +403,9 @@
         position: absolute;
         width: 100%;
         background-color: #01518a;
-        top: 65rem;
+        top: 45rem;
         display: block;
+        height: 10rem;
     }
 
     .boton-subs {
@@ -427,12 +430,12 @@
     
     .cust-reviews {
         position: relative;
-        top: 33rem;
+        top: 27rem;
     }
     
     .banner-shop {
         position: absolute;
-        padding-top: 28rem;
+        padding-top: 20rem;
         top: 42rem;
         min-width: 100%;
         max-width: 100%;
@@ -444,6 +447,14 @@
         top: 81rem;
         min-width: 100%;
         max-width: 100%;
+    }
+
+    .c480r {
+        margin-bottom: -2rem;
+        // width: 550px;
+        // height: 125px;
+        width: 200px;
+        height: 70px;
     }
 
     .container-shop3 {
@@ -468,6 +479,7 @@
         align-content: center;
         text-align: center;
         align-items: center;
+        height: 19rem;
     }
 
     .fila {
@@ -499,7 +511,7 @@
     //     margin-bottom: 3rem;
     // }
 
-    .btns768 {
+    .btns480 {
         background-color: rgb(112, 10, 152);
         border-radius: 0.5rem;
         padding: 0.5rem;
@@ -507,7 +519,7 @@
         font-size: 12px;
         font-family: Georgia;
         font-weight: normal;
-        margin-top: 3rem;
+        margin-top: 2rem;
         margin-bottom: 3rem;
     }
 
@@ -546,7 +558,7 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         margin: 20px;
-        top: 15.5rem;
+        top: 8rem;
         position: absolute;
         gap: 2px;
         margin-left: -2rem;
@@ -614,10 +626,10 @@
 //FOOTER
     .white-bar-footer-about {
         background-color: white; 
-        height: 8rem;
+        height: 4rem;
         position: absolute;
         width: 100%;
-        top: 78rem;
+        top: 56rem;
         display: block;
     }
 
@@ -641,10 +653,10 @@
 
     .index-wbf {
         background-color: white; 
-        height: 8rem;
+        height: 1rem;
         position: absolute;
         width: 100%;
-        top: 60rem;
+        top: 48rem;
         display: block;
         z-index: -1;
     }
@@ -689,9 +701,9 @@
 
     .img-about-1 {
         position: relative;
-        top:-14rem;
-        width: 450px;
-        height: 270px;
+        top:-18rem;
+        width: 250px;
+        height: 160px;
     }
 
     .container-contact {

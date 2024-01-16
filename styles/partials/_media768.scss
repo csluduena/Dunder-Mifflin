@@ -1,4 +1,11 @@
 @media (min-width: 768px) and (max-width: 899px) {
+    
+    body {
+        main {
+        
+        }
+    }
+
     //head-area
     .bgd-top {
         display: flex;
@@ -241,6 +248,10 @@
         font-weight: normal;
     }
 
+    .h3-3-body480 {
+        display: none;
+    }
+
     .logo-dm2 {
         width: 20rem;
         height: 20rem;
@@ -265,7 +276,7 @@
         position: absolute;
         width: 100%;
         background-color: #01518a;
-        top: 50rem;
+        top: 60rem;
         display: block;
         height: 10rem;
     }
@@ -426,17 +437,17 @@
     }
     
     .banner-shop {
-        position: absolute;
-        padding-top: 28rem;
-        top: 42rem;
+        position: relative;
+        margin-top: 28rem;
+        top: 12rem;
         min-width: 100%;
         max-width: 100%;
     }
 
     .banner-ctc-c768 {
-        position: absolute;
+        position: relative;
         padding-top: 5rem;
-        top: 81rem;
+        top: -1rem;
         min-width: 100%;
         max-width: 100%;
     }
@@ -568,7 +579,6 @@
         // width: 550px;
         // height: 125px;
         width: 60%;
-
     }
     
     .item-b {
@@ -626,11 +636,10 @@
 
     .wctc768 {
         background-color: white; 
-        height: 4rem;
+        height: 0rem;
         position: absolute;
         width: 100%;
-        top: 92rem;
-        display: block;
+        top: 90rem;
     }
 
     .index-wbf {
@@ -638,7 +647,7 @@
         height: 8rem;
         position: absolute;
         width: 100%;
-        top: 60rem;
+        top: 68.5rem;
         display: block;
         z-index: -1;
     }
@@ -647,25 +656,28 @@
         .white-bar-footer-shop {
             background-color: white; 
             height: 4rem;
-            position: absolute;
+            position: relative;
             width: 100%;
-            top: 77rem;
+            top: 10rem;
             display: block;
         }
-    
-        .redes-footer-cont1080 {
-            margin-top: 1rem;
-            display:flex;
+        .refoo768 {
+            margin-top: 4rem;
+            display: flex;
             justify-content: center;
             align-content: normal;
             align-items: center;
-            padding-bottom: 2.5rem;
+            margin-bottom: 3rem;
         }
-    }
+        .fococnt {
+            
+            margin-bottom: 2rem;
+        }
 
-    .footer-copy {
-        margin-right: 10rem;
-        font-size: 12px;
+        .footer-copy {
+            margin-right: 10rem;
+            font-size: 12px;
+        }
     }
 
     .twitter-logo, .instagram-logo, .facebook-logo {
