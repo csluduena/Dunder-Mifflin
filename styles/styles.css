@@ -1927,7 +1927,7 @@ a {
   }
   .img-shop-ctc {
     margin: 0;
-    margin-top: -2rem;
+    margin-top: -1.2rem;
     display: flex;
     align-items: center;
     position: absolute;
@@ -1973,14 +1973,14 @@ a {
     position: absolute;
     z-index: 2;
   }
-  .h1-titlecont {
+  .h1-titlecontctc {
     display: inline;
     top: 4.7rem;
     left: 0;
     right: 0;
     margin: auto;
     padding: 0;
-    font-size: 2rem;
+    font-size: 18px;
     font-family: Georgia;
     font-weight: normal;
     text-align: center;
@@ -2006,6 +2006,31 @@ a {
     flex-direction: column;
     align-items: flex-start;
   }
+  .cotact480 {
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    display: flex;
+    top: 55rem;
+    justify-content: center;
+  }
+  .msg-p {
+    font-size: 14px;
+  }
+  .itema480a {
+    max-width: 40%;
+    min-width: 40%;
+  }
+  .itema480b {
+    max-width: 60%;
+    min-width: 60%;
+  }
+  .form-control {
+    width: 12rem;
+  }
+  .form-control1 {
+    max-width: 192.24px;
+  }
   .btn1 {
     display: flex;
     justify-content: center;
@@ -2013,11 +2038,10 @@ a {
     border-radius: 0.5rem;
     padding: 0.5rem;
     color: white;
-    font-size: 14px;
+    font-size: 11px;
     font-family: Georgia;
     text-align: center;
     font-weight: bold;
-    margin-left: 12rem;
   }
   .boton-encer {
     display: flex;
@@ -2238,17 +2262,18 @@ a {
     position: relative;
     top: 27rem;
   }
-  .banner-shop {
+  .bshop480 {
     position: absolute;
     padding-top: 20rem;
-    top: 42rem;
+    top: 35rem;
     min-width: 100%;
     max-width: 100%;
   }
-  .banner-ctc-c768 {
+  .banner-ctc-c480 {
     position: absolute;
     padding-top: 5rem;
-    top: 81rem;
+    left: 0;
+    top: 82rem;
     min-width: 100%;
     max-width: 100%;
   }
@@ -2396,9 +2421,9 @@ a {
     top: 158rem;
     display: block;
   }
-  .wctc768 {
+  .wctc480 {
     background-color: white;
-    height: 4rem;
+    height: 3rem;
     position: absolute;
     width: 100%;
     top: 92rem;
@@ -2415,7 +2440,7 @@ a {
   }
   footer .white-bar-footer-shop {
     background-color: white;
-    height: 4rem;
+    height: 3rem;
     position: absolute;
     width: 100%;
     top: 60rem;
@@ -2425,8 +2450,9 @@ a {
     margin-top: 1rem;
     padding-bottom: 0;
   }
-  .footer-copy {
+  .footcopyshop480 {
     font-size: 12px;
+    text-align: center;
   }
   .twitter-logo, .instagram-logo, .facebook-logo {
     display: none;
@@ -2449,7 +2475,7 @@ a {
     width: 250px;
     height: 160px;
   }
-  .container-contact {
+  .contr-ct480 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
@@ -2463,10 +2489,10 @@ a {
   }
   .h2contact-t {
     margin-bottom: 2rem;
-    font-size: 20px;
+    font-size: 13px;
   }
   .h2contact {
-    font-size: 20px;
+    font-size: 10px;
     font-weight: normal;
   }
   .dire768 {
@@ -2476,9 +2502,10 @@ a {
     margin-top: 0.7rem;
   }
   .h4contact, .h5contact {
-    font-size: 14px;
+    font-size: 10px;
   }
   .direct {
+    font-size: 9px;
     font-weight: bold;
   }
   .message-section {
@@ -2503,7 +2530,7 @@ a {
     display: flex;
   }
   .form-label {
-    font-size: 20px;
+    font-size: 12px;
   }
 }
 .container {
