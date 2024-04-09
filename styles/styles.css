@@ -1,0 +1,2578 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (min-width: 1921px) and (max-width: 6500px) {
+  .bgd-top {
+    height: 11.25rem;
+    display: flex;
+    align-items: center;
+  }
+  .logo-dm {
+    width: 8rem;
+    height: 8rem;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  .top-left {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 5rem;
+  }
+  .botones-top {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 2%;
+  }
+  .search1 {
+    display: flex;
+    align-items: center;
+    margin-right: 5rem;
+  }
+  .bgd-header2 {
+    position: relative;
+    height: 20rem;
+  }
+  .img-shop-pj {
+    margin: 0;
+    margin-top: -8rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .iframe-map {
+    position: relative;
+    top: 19rem;
+    z-index: -2;
+  }
+  .img-shop-ctc {
+    margin: 0;
+    margin-top: -9.37rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .miguel {
+    margin: 0;
+    margin-top: -3rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+  }
+  .h1-titlew {
+    display: inline;
+    top: 12rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0;
+    font-size: 5.5rem;
+    font-family: Georgia;
+    font-weight: normal;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+  }
+  .h1-titleshop {
+    display: inline;
+    top: 12rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0;
+    font-size: 5.5rem;
+    font-family: Georgia;
+    font-weight: normal;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+  }
+  .h1-titlecont {
+    display: inline;
+    top: 12rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0;
+    font-size: 5.5rem;
+    font-family: Georgia;
+    font-weight: normal;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+  }
+  .main-title {
+    display: flex;
+    align-items: center;
+  }
+  .copy-paper {
+    margin-top: 6rem;
+    margin-left: 80%;
+    width: 23rem;
+    height: 28rem;
+    position: absolute;
+  }
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  .btn-fom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .btn1c {
+    margin-top: -1.5rem;
+    margin-left: 24rem;
+    background-color: #700a98;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    font-family: Georgia;
+    font-weight: normal;
+  }
+  .btn1 {
+    display: flex;
+    margin-top: -1.5rem;
+    margin-left: 24rem;
+    background-color: rgb(112, 10, 152);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    font-family: Georgia;
+    font-weight: normal;
+  }
+  .boton-encer {
+    display: flex;
+  }
+  .h1-body {
+    font-family: Georgia;
+    font-weight: normal;
+    font-size: 70px;
+    color: rgb(112, 10, 152);
+  }
+  .h2-body {
+    font-family: Georgia;
+    font-weight: normal;
+    font-size: 50px;
+  }
+  .h3-body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+  }
+  .white-paper {
+    width: 23rem;
+    height: 15rem;
+    margin-top: 1rem;
+    margin-right: 12rem;
+    float: right;
+  }
+  .comment-text {
+    margin-top: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+  }
+  .deliver-img {
+    width: 30rem;
+    height: 15rem;
+  }
+  .h1-1-body {
+    font-family: Georgia;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 60px;
+    color: rgb(112, 10, 152);
+  }
+  .h3-3-body {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: normal;
+  }
+  .logo-dm2 {
+    width: 50rem;
+    height: 50rem;
+    display: block;
+    top: 36rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.11;
+    margin-top: 6%;
+  }
+  .italic-text {
+    font-style: italic;
+  }
+  .blue-bar {
+    position: absolute;
+    width: 100%;
+    background-color: #01518a;
+    top: 115rem;
+    display: block;
+  }
+  .coming-soon {
+    margin-left: 15%;
+    margin-top: -5rem;
+  }
+  .c-soon-text {
+    font-family: "lobster14";
+    font-size: 5rem;
+    margin-top: -7.6rem;
+    color: white;
+    text-align: center;
+  }
+  .color-paper {
+    width: 25rem;
+    height: 23rem;
+    margin-left: 70%;
+    margin-top: -20rem;
+  }
+  .c-soon-desc {
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .btn2 {
+    margin-top: 0rem;
+    margin-left: 2.2rem;
+    background-color: rgb(112, 10, 152);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    font-size: 1.1rem;
+    font-family: Georgia;
+    font-weight: normal;
+    margin-left: -1rem;
+    margin-top: 10rem;
+  }
+  .img-ab {
+    width: 24rem;
+    height: 18rem !important;
+    margin: 0;
+    margin-top: 1.9rem !important;
+    display: flex;
+    align-items: center;
+  }
+  .img-about-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: normal;
+    align-items: baseline;
+  }
+  .img-about {
+    margin-top: 14rem;
+    position: absolute;
+    top: 40rem;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .h5-about {
+    font-size: 20px;
+    color: gray;
+    left: 25%;
+    position: relative;
+  }
+  .text-historia {
+    margin-top: 2rem;
+    left: 5%;
+    position: relative;
+  }
+  .text-his {
+    font-size: 25px !important;
+    font-weight: normal;
+    padding-top: 2rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .text-violet {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: "lobster14";
+    padding-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .btn-ssc {
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgb(112, 10, 152);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    font-size: 2rem;
+    font-family: Georgia;
+    font-weight: normal;
+  }
+  .blue-color {
+    padding-bottom: 2rem;
+    position: absolute;
+    width: 100%;
+    background-color: #01518a;
+    top: 98rem;
+    display: block;
+  }
+  .boton-subs {
+    margin-bottom: 0.5rem;
+  }
+  .dmlogo-b {
+    position: absolute;
+    top: 33rem;
+  }
+  .shop3 {
+    position: relative;
+    top: 34rem;
+    justify-content: center;
+  }
+  .Costumer1 {
+    margin-bottom: -2rem;
+    width: 35%;
+    height: 7%;
+  }
+  .h1-cr {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    margin-right: 25rem;
+    text-align: center;
+  }
+  .cust-reviews {
+    position: relative;
+    top: 33rem;
+  }
+  .banner-shop {
+    position: absolute;
+    padding-top: 5rem;
+    top: 148rem;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .banner-ctc-c {
+    position: absolute;
+    padding-top: 5rem;
+    min-width: 100%;
+  }
+  .center-logoinc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  .columna {
+    border: 1px solid black;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+  }
+  .fila {
+    margin: 10px;
+  }
+  .logo-paper-shop {
+    width: 20rem;
+    height: 20rem;
+    margin-top: 5rem;
+  }
+  .btn-shop {
+    background-color: rgb(112, 10, 152);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    font-family: Georgia;
+    font-weight: normal;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .c1-d {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    padding-top: 2rem;
+  }
+  .c2-d {
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: Georgia;
+    padding-top: 1rem;
+    font-weight: bold;
+  }
+  .img-top-shopo {
+    width: 24rem;
+    height: 23rem;
+    margin-top: -3rem;
+  }
+  .content-pr {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    position: relative;
+  }
+  .container-indx {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 20px;
+    top: 34rem;
+    position: absolute;
+    gap: 10rem;
+  }
+  .item {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    min-height: 0;
+    overflow: auto;
+  }
+  .item-a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .item-b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .item-c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .item-d {
+    display: flex;
+    flex-direction: column;
+  }
+  .text-op {
+    margin-left: 2rem;
+  }
+  .name-gray {
+    color: gray;
+    margin-left: 20rem;
+  }
+  .white-bar-footer-shop {
+    background-color: white;
+    height: 4rem;
+    position: absolute;
+    width: 100%;
+    top: 170rem;
+    display: block;
+  }
+  .white-bar-footer-about {
+    background-color: white;
+    height: 8rem;
+    position: absolute;
+    width: 100%;
+    top: 115rem;
+    display: block;
+  }
+  .white-bar-footer {
+    background-color: white;
+    height: 4rem;
+    position: absolute;
+    width: 100%;
+    top: 158rem;
+    display: block;
+  }
+  footer .white-bar-footer-ctc {
+    background-color: white;
+    height: 4rem;
+    position: absolute;
+    width: 100%;
+    top: 125.5rem;
+    display: block;
+  }
+  .index-wbf {
+    background-color: white;
+    height: 8rem;
+    position: absolute;
+    width: 100%;
+    top: 131em;
+    display: block;
+    z-index: -1;
+  }
+  footer .redes-footer1921 {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-content: normal;
+    align-items: center;
+    padding-bottom: 2.5rem;
+  }
+  .footer-copy {
+    margin-right: 10rem;
+  }
+  .twitter-logo, .instagram-logo, .facebook-logo {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .grid-container-about {
+    position: absolute;
+    top: 40rem;
+    right: 30%;
+    left: 30%;
+  }
+  .tabla-config-ab {
+    position: absolute;
+    top: 30rem;
+    left: 25%;
+    right: 25%;
+  }
+  .img-about-1 {
+    left: 15%;
+    position: relative;
+  }
+  .container-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 10px;
+    margin-top: 25rem;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .h3-3-body480 {
+    display: none;
+  }
+  .item {
+    padding: 10px;
+  }
+  .h2contact-t {
+    margin-bottom: 2rem;
+    font-size: 35px;
+  }
+  .h2contact {
+    font-size: 30px;
+    font-weight: normal;
+  }
+  .cc1 {
+    margin-top: 0.7rem;
+  }
+  .h4contact, .h5contact, .direct {
+    font-size: 20px;
+  }
+  .direct {
+    font-weight: bold;
+  }
+  .message-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mb-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .cg-c {
+    color: gray;
+  }
+  textarea {
+    width: 273.24px !important;
+    resize: vertical;
+  }
+  .f-btnc {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .btn-c {
+    margin-top: 1rem;
+    width: 80px;
+    display: flex;
+  }
+  .form-label {
+    font-size: 20px;
+  }
+}
+@media (min-width: 900px) and (max-width: 1920px) {
+  .bgd-top {
+    height: 11.25rem;
+    display: flex;
+    align-items: center;
+  }
+  .logo-dm {
+    width: 8rem;
+    height: 8rem;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  .top-left {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 5rem;
+  }
+  .botones-top {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 2%;
+  }
+  .search1 {
+    display: flex;
+    align-items: center;
+    margin-right: 5rem;
+  }
+  .bgd-header2 {
+    position: relative;
+    height: 20rem;
+  }
+  .img-shop-pj {
+    margin: 0;
+    margin-top: -8rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .iframe-map {
+    position: relative;
+    top: 19rem;
+    z-index: -2;
+  }
+  .img-shop-ctc {
+    margin: 0;
+    margin-top: -7.8rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .miguel {
+    margin: 0;
+    margin-top: -3rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+  }
+  .h1-titlew {
+    display: inline;
+    top: 9.8rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0;
+    font-size: 5rem;
+    font-family: Georgia;
+    font-weight: normal;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+  }
+  .h1-titleshop {
+    display: inline;
+    top: 9.8rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0;
+    font-size: 5rem;
+    font-family: Georgia;
+    font-weight: normal;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+  }
+  .h1-titlecont {
+    display: inline;
+    top: 10rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0;
+    font-size: 5rem;
+    font-family: Georgia;
+    font-weight: normal;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+  }
+  .main-title {
+    display: flex;
+    align-items: center;
+  }
+  .copy-paper {
+    margin-top: 6rem;
+    margin-left: 80%;
+    width: 23rem;
+    height: 28rem;
+    position: absolute;
+  }
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  .btn-fom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .btn1c {
+    margin-top: -1.5rem;
+    margin-left: 24rem;
+    background-color: #700a98;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    font-family: Georgia;
+    font-weight: normal;
+  }
+  .btn1 {
+    display: flex;
+    margin-top: -1.5rem;
+    margin-left: 24rem;
+    background-color: rgb(112, 10, 152);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    font-family: Georgia;
+    font-weight: normal;
+  }
+  .boton-encer {
+    display: flex;
+  }
+  .h1-body {
+    font-family: Georgia;
+    font-weight: normal;
+    font-size: 70px;
+    color: rgb(112, 10, 152);
+  }
+  .h2-body {
+    font-family: Georgia;
+    font-weight: normal;
+    font-size: 50px;
+  }
+  .h3-body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+  }
+  .white-paper {
+    width: 23rem;
+    height: 15rem;
+    margin-top: 1rem;
+    margin-right: -1rem;
+    float: right;
+  }
+  .comment-text {
+    margin-top: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+  }
+  .deliver-img {
+    width: 30rem;
+    height: 15rem;
+  }
+  .h1-1-body {
+    font-family: Georgia;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 60px;
+    color: rgb(112, 10, 152);
+  }
+  .h3-3-body {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: normal;
+  }
+  .logo-dm2 {
+    width: 50rem;
+    height: 50rem;
+    display: block;
+    top: 36rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.11;
+    margin-top: 6%;
+  }
+  .italic-text {
+    font-style: italic;
+  }
+  .blue-bar {
+    position: absolute;
+    width: 100%;
+    background-color: #01518a;
+    top: 115rem;
+    display: block;
+  }
+  .coming-soon {
+    margin-left: 15%;
+    margin-top: -5rem;
+  }
+  .c-soon-text {
+    font-family: "lobster14";
+    font-size: 5rem;
+    margin-top: -8.6rem;
+    color: white;
+    text-align: center;
+  }
+  .color-paper {
+    width: 25rem;
+    height: 23rem;
+    margin-left: 70%;
+    margin-top: -20rem;
+  }
+  .c-soon-desc {
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .btn2 {
+    margin-top: 0rem;
+    margin-left: 2.2rem;
+    background-color: rgb(112, 10, 152);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    font-size: 1.1rem;
+    font-family: Georgia;
+    font-weight: normal;
+    margin-left: -1rem;
+    margin-top: 10rem;
+  }
+  .img-ab {
+    width: 24rem;
+    height: 18rem !important;
+    margin: 0;
+    margin-top: 1.9rem !important;
+    display: flex;
+    align-items: center;
+  }
+  .img-about-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: normal;
+    align-items: baseline;
+  }
+  .img-about {
+    margin-top: 14rem;
+    position: absolute;
+    top: 40rem;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .h5-about {
+    font-size: 20px;
+    color: gray;
+    left: 25%;
+    position: relative;
+  }
+  .text-historia {
+    margin-top: 2rem;
+    left: 5%;
+    position: relative;
+  }
+  .text-his {
+    font-size: 25px !important;
+    font-weight: normal;
+    padding-top: 2rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .text-violet {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: "lobster14";
+    padding-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .btn-ssc {
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgb(112, 10, 152);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    font-size: 2rem;
+    font-family: Georgia;
+    font-weight: normal;
+  }
+  .blue-color {
+    padding-bottom: 2rem;
+    position: absolute;
+    width: 100%;
+    background-color: #01518a;
+    top: 98rem;
+    display: block;
+  }
+  .boton-subs {
+    margin-bottom: 0.5rem;
+  }
+  .dmlogo-b {
+    position: absolute;
+    top: 33rem;
+  }
+  .h1-cr {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    margin-right: 25rem;
+    text-align: center;
+  }
+  .Costumer1 {
+    width: 37%;
+    height: 7%;
+  }
+  .shop3 {
+    position: relative;
+    top: 34rem;
+    justify-content: center;
+  }
+  .cust-reviews {
+    position: relative;
+    top: 33rem;
+  }
+  .banner-shop {
+    position: absolute;
+    padding-top: 28rem;
+    top: 119rem;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .banner-ctc-c {
+    position: absolute;
+    padding-top: 4rem;
+    top: 103rem;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .center-logoinc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  .columna {
+    border: 1px solid #000000;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+  }
+  .fila {
+    margin: 10px;
+  }
+  .logo-paper-shop {
+    width: 20rem;
+    height: 20rem;
+    margin-top: 5rem;
+  }
+  .btn-shop {
+    background-color: rgb(112, 10, 152);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    font-family: Georgia;
+    font-weight: normal;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .c1-d {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    padding-top: 2rem;
+  }
+  .c2-d {
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: Georgia;
+    padding-top: 1rem;
+    font-weight: bold;
+  }
+  .img-top-shopo {
+    width: 24rem;
+    height: 23rem;
+    margin-top: -3rem;
+  }
+  .content-pr {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    position: relative;
+  }
+  .container-indx {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 20px;
+    top: 34rem;
+    position: absolute;
+    gap: 10rem;
+  }
+  .item {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    min-height: 0;
+    overflow: auto;
+  }
+  .item-a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .item-b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .item-c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .item-d {
+    display: flex;
+    flex-direction: column;
+  }
+  .text-op {
+    margin-left: 2rem;
+  }
+  .name-gray {
+    color: gray;
+    margin-left: 20rem;
+  }
+  .h3-3-body480 {
+    display: none;
+  }
+  .white-bar-footer-about {
+    background-color: white;
+    height: 8rem;
+    position: absolute;
+    width: 100%;
+    top: 115rem;
+    display: block;
+  }
+  .white-bar-footer {
+    background-color: white;
+    height: 4rem;
+    position: absolute;
+    width: 100%;
+    top: 158rem;
+    display: block;
+  }
+  .white-bar-footer-ctc {
+    background-color: white;
+    height: 4rem;
+    position: absolute;
+    width: 100%;
+    top: 121rem;
+    display: block;
+  }
+  .index-wbf {
+    background-color: white;
+    height: 8rem;
+    position: absolute;
+    width: 100%;
+    top: 130em;
+    display: block;
+    z-index: -1;
+  }
+  footer .white-bar-footer-shop {
+    background-color: white;
+    height: 4rem;
+    position: absolute;
+    width: 100%;
+    top: 161.5rem;
+    display: block;
+  }
+  footer .redes-footer-cont1080 {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: normal;
+    align-items: center;
+    padding-bottom: 2.5rem;
+  }
+  .footer-copy {
+    margin-right: 10rem;
+  }
+  .twitter-logo, .instagram-logo, .facebook-logo {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .grid-container-about {
+    position: absolute;
+    top: 40rem;
+    right: 30%;
+    left: 30%;
+  }
+  .tabla-config-ab {
+    position: absolute;
+    top: 30rem;
+    left: 25%;
+    right: 25%;
+  }
+  .img-about-1 {
+    left: 15%;
+    position: relative;
+  }
+  .container-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 10px;
+    margin-top: 25rem;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .item {
+    padding: 10px;
+  }
+  .h2contact-t {
+    margin-bottom: 2rem;
+    font-size: 35px;
+  }
+  .h2contact {
+    font-size: 30px;
+    font-weight: normal;
+  }
+  .cc1 {
+    margin-top: 0.7rem;
+  }
+  .h4contact, .h5contact, .direct {
+    font-size: 20px;
+  }
+  .direct {
+    font-weight: bold;
+  }
+  .message-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mb-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .cg-c {
+    color: gray;
+  }
+  textarea {
+    width: 273.24px !important;
+    resize: vertical;
+  }
+  .f-btnc {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .btn-c {
+    margin-top: 1rem;
+    width: 80px;
+    display: flex;
+  }
+  .form-label {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 899px) {
+  .bgd-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+  }
+  .logo-dm {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+  }
+  .top-left {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    height: 50%;
+    margin-top: 1rem;
+  }
+  .botones-top {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .search1 {
+    display: flex;
+    align-items: center;
+    justify-content: normal;
+    margin-left: 1rem;
+  }
+  .bgd-header2 {
+    position: relative;
+    height: 20rem;
+  }
+  .img-shop-pj {
+    margin: 0;
+    margin-top: -5rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .iframe-map {
+    position: relative;
+    top: 10rem;
+    z-index: -2;
+  }
+  .img-shop-ctc {
+    margin: 0;
+    margin-top: -2rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .miguel {
+    margin: 0;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+  }
+  .h1-titlew {
+    display: inline;
+    top: 6.1rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0;
+    font-size: 1.8rem;
+    font-family: Georgia;
+    font-weight: normal;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+  }
+  .h1-titleshop {
+    display: inline;
+    top: 4.8rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0;
+    font-size: 2rem;
+    font-family: Georgia;
+    font-weight: normal;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+  }
+  .h1-titlecont {
+    display: inline;
+    top: 4.7rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0;
+    font-size: 2rem;
+    font-family: Georgia;
+    font-weight: normal;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+  }
+  .main-title {
+    display: flex;
+    align-items: center;
+  }
+  .copy-paper {
+    margin-top: 6rem;
+    margin-left: 80%;
+    width: 23rem;
+    height: 28rem;
+    position: absolute;
+  }
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  .btn-fom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .btn1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(112, 10, 152);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    font-size: 14px;
+    font-family: Georgia;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 12rem;
+  }
+  .boton-encer {
+    display: flex;
+  }
+  .h1-body {
+    font-family: Georgia;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgb(112, 10, 152);
+  }
+  .h2-body {
+    font-family: Georgia;
+    font-weight: normal;
+    font-size: 20px;
+  }
+  .h3-body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 11px;
+    margin-top: 5px;
+  }
+  .white-paper {
+    width: 12rem;
+    height: 6rem;
+    margin-top: 1rem;
+    margin-right: -1rem;
+    float: right;
+  }
+  .comment-text {
+    margin-top: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+  }
+  .deliver-img {
+    width: 11rem;
+    height: 6rem;
+    margin-top: 1rem;
+  }
+  .h1-1-body {
+    font-family: Georgia;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 25px;
+    color: rgb(112, 10, 152);
+  }
+  .h3-3-body {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 11px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: normal;
+  }
+  .h3-3-body480 {
+    display: none;
+  }
+  .logo-dm2 {
+    width: 20rem;
+    height: 20rem;
+    display: block;
+    top: 18rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.11;
+    margin-top: 6%;
+  }
+  .italic-text {
+    font-style: italic;
+  }
+  .blue-bar {
+    position: absolute;
+    width: 100%;
+    background-color: #01518a;
+    top: 60rem;
+    display: block;
+    height: 10rem;
+  }
+  .coming-soon {
+    position: absolute;
+    margin-left: 5%;
+    width: 170px;
+    height: 140px;
+    margin-top: -4.6rem;
+  }
+  .c-soon-text {
+    font-family: "lobster14";
+    font-size: 3rem;
+    margin-top: -7rem;
+    color: white;
+    text-align: center;
+  }
+  .color-paper {
+    width: 175px;
+    height: 145px;
+    margin-left: 73%;
+    margin-top: -20rem;
+  }
+  .c-soon-desc {
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 0.9rem;
+  }
+  .btn2 {
+    background-color: rgb(112, 10, 152);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    font-size: 0.6rem;
+    font-family: Georgia;
+    font-weight: normal;
+    margin-left: 8rem;
+    margin-top: 8rem;
+  }
+  .img-ab {
+    width: 24rem;
+    height: 18rem !important;
+    margin: 0;
+    margin-top: 1.9rem !important;
+    display: flex;
+    align-items: center;
+  }
+  .img-about-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: normal;
+    align-items: baseline;
+  }
+  .img-about {
+    margin-top: 14rem;
+    position: absolute;
+    top: 40rem;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .h5-about {
+    font-size: 20px;
+    color: gray;
+    left: 7%;
+    position: relative;
+    top: -14rem;
+  }
+  .text-historia {
+    margin-top: 2rem;
+    left: -15%;
+    position: relative;
+    top: -12rem;
+  }
+  .text-his {
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 2rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    position: absolute;
+    top: 13rem;
+  }
+  .text-violet {
+    color: white;
+    text-align: center;
+    font-size: 20px !important;
+    font-family: "lobster14";
+    padding-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .btn-ssc {
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgb(112, 10, 152);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    font-size: 1rem;
+    font-family: Georgia;
+    font-weight: normal;
+  }
+  .blue-color {
+    padding-bottom: 2rem;
+    position: absolute;
+    width: 100%;
+    background-color: #01518a;
+    top: 65rem;
+    display: block;
+  }
+  .boton-subs {
+    margin-bottom: 0.5rem;
+  }
+  .dmlogo-b {
+    position: absolute;
+    top: 10rem;
+    height: 130px;
+    width: 400px;
+  }
+  .shop768 {
+    font-size: 10px;
+    font-weight: normal;
+    font-family: Georgia;
+    padding-top: 1rem;
+    font-weight: bold;
+  }
+  .cust-reviews {
+    position: relative;
+    top: 33rem;
+  }
+  .banner-shop {
+    position: relative;
+    margin-top: 28rem;
+    top: 12rem;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .banner-ctc-c768 {
+    position: relative;
+    padding-top: 5rem;
+    top: -1rem;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .container-shop3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .center-logoinc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  .columna {
+    border: 1px solid black;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .fila {
+    margin: 10px;
+  }
+  .logo-paper-shop {
+    width: 8rem;
+    height: 8rem;
+    margin-top: 1rem;
+    padding: 10px;
+  }
+  .shop3 {
+    position: absolute;
+    top: 18rem;
+  }
+  .btns768 {
+    background-color: rgb(112, 10, 152);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    font-size: 12px;
+    font-family: Georgia;
+    font-weight: normal;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .h768 {
+    font-size: 10px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    padding-top: 2rem;
+  }
+  .img-top-shopo {
+    width: 24rem;
+    height: 23rem;
+    margin-top: -3rem;
+  }
+  .content-pr {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    position: relative;
+  }
+  .h1-cr768 {
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    margin-right: 15rem;
+    text-align: center;
+  }
+  .container-indx {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 20px;
+    top: 15.5rem;
+    position: absolute;
+    gap: 18px;
+  }
+  .item {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    min-height: 0;
+    overflow: auto;
+  }
+  .item-a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .c768r {
+    margin-bottom: -2rem;
+    width: 60%;
+  }
+  .item-b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .item-c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .item-d {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+  }
+  .text-op {
+    margin-left: 2rem;
+    font-size: 10px;
+  }
+  .name-gray {
+    color: gray;
+    margin-left: 50%;
+    font-size: 10px;
+  }
+  .white-bar-footer-about {
+    background-color: white;
+    height: 8rem;
+    position: absolute;
+    width: 100%;
+    top: 78rem;
+    display: block;
+  }
+  .white-bar-footer {
+    background-color: white;
+    height: 4rem;
+    position: absolute;
+    width: 100%;
+    top: 158rem;
+    display: block;
+  }
+  .wctc768 {
+    background-color: white;
+    height: 0rem;
+    position: absolute;
+    width: 100%;
+    top: 90rem;
+  }
+  .index-wbf {
+    background-color: white;
+    height: 8rem;
+    position: absolute;
+    width: 100%;
+    top: 68.5rem;
+    display: block;
+    z-index: -1;
+  }
+  footer .white-bar-footer-shop {
+    background-color: white;
+    height: 4rem;
+    position: relative;
+    width: 100%;
+    top: 10rem;
+    display: block;
+  }
+  footer .refoo768 {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-content: normal;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  footer .fococnt {
+    margin-bottom: 2rem;
+  }
+  footer .footer-copy {
+    margin-right: 10rem;
+    font-size: 12px;
+  }
+  .twitter-logo, .instagram-logo, .facebook-logo {
+    width: 15px;
+    height: 15px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .grid-container-about {
+    position: absolute;
+    top: 40rem;
+    right: 30%;
+    left: 30%;
+  }
+  .tabla-config-ab {
+    position: absolute;
+    top: 30rem;
+    left: 25%;
+    right: 25%;
+  }
+  .img-about-1 {
+    position: relative;
+    top: -14rem;
+    width: 450px;
+    height: 270px;
+  }
+  .container-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 10px;
+    margin-top: 13rem;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .item {
+    padding: 10px;
+  }
+  .h2contact-t {
+    margin-bottom: 2rem;
+    font-size: 20px;
+  }
+  .h2contact {
+    font-size: 20px;
+    font-weight: normal;
+  }
+  .dire768 {
+    font-size: 10px;
+  }
+  .cc1 {
+    margin-top: 0.7rem;
+  }
+  .h4contact, .h5contact {
+    font-size: 14px;
+  }
+  .direct {
+    font-weight: bold;
+  }
+  .message-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mb-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .cg-c {
+    color: gray;
+  }
+  textarea {
+    width: 273.24px !important;
+    resize: vertical;
+  }
+  .btn-c {
+    margin-top: 1rem;
+    width: 80px;
+    display: flex;
+  }
+  .form-label {
+    font-size: 20px;
+  }
+}
+@media (min-width: 479px) and (max-width: 767px) {
+  .bgd-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+  }
+  .logo-dm480 {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+  }
+  .top-left {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    height: 50%;
+    margin-top: 1rem;
+  }
+  .botones-top {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .search1 {
+    display: none;
+  }
+  .bgd-header2 {
+    position: relative;
+    height: 20rem;
+  }
+  .img-shop-pj {
+    margin: 0;
+    margin-top: -5rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .iframe-map {
+    position: relative;
+    top: 10rem;
+    z-index: -2;
+  }
+  .img-shop-ctc {
+    margin: 0;
+    margin-top: -1.2rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .miguel {
+    margin: 0;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .h1-titlew {
+    display: inline;
+    top: 5.8rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0;
+    font-size: 1.1rem;
+    font-family: Georgia;
+    font-weight: normal;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+  }
+  .h1-titleshop {
+    display: inline;
+    top: 4.7rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0;
+    font-size: 18px;
+    font-family: Georgia;
+    font-weight: normal;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+  }
+  .h1-titlecontctc {
+    display: inline;
+    top: 4.7rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0;
+    font-size: 18px;
+    font-family: Georgia;
+    font-weight: normal;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+  }
+  .main-title {
+    display: flex;
+    align-items: center;
+  }
+  .copy-paper {
+    margin-top: 6rem;
+    margin-left: 80%;
+    width: 23rem;
+    height: 28rem;
+    position: absolute;
+  }
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  .btn-fom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .cotact480 {
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    display: flex;
+    top: 55rem;
+    justify-content: center;
+  }
+  .msg-p {
+    font-size: 14px;
+  }
+  .itema480a {
+    max-width: 40%;
+    min-width: 40%;
+  }
+  .itema480b {
+    max-width: 60%;
+    min-width: 60%;
+  }
+  .form-control {
+    width: 12rem;
+  }
+  .form-control1 {
+    max-width: 192.24px;
+  }
+  .btn1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(112, 10, 152);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    font-size: 11px;
+    font-family: Georgia;
+    text-align: center;
+    font-weight: bold;
+  }
+  .boton-encer {
+    display: flex;
+  }
+  .h1-body {
+    font-family: Georgia;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgb(112, 10, 152);
+  }
+  .h2-body {
+    font-family: Georgia;
+    font-weight: normal;
+    font-size: 16px;
+  }
+  .h3-body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 8px;
+    margin-top: 5px;
+  }
+  .white-paper {
+    width: 8rem;
+    height: 4rem;
+    margin-top: 1rem;
+    margin-right: -1rem;
+    float: right;
+  }
+  .comment-text {
+    margin-top: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+  }
+  .deliver-img {
+    width: 8rem;
+    height: 4rem;
+    margin-top: 1rem;
+  }
+  .h1-1-body {
+    font-family: Georgia;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 16px;
+    color: rgb(112, 10, 152);
+  }
+  .h3-3-body {
+    display: none;
+  }
+  .h3-3-body480 {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: normal;
+  }
+  .logo-dm2 {
+    width: 20rem;
+    height: 20rem;
+    display: block;
+    top: 10rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.11;
+    margin-top: 6%;
+  }
+  .italic-text {
+    font-style: italic;
+    font-size: smaller;
+    font-family: arial;
+    font-weight: bolder;
+  }
+  .blue-bar {
+    position: absolute;
+    width: 100%;
+    background-color: #01518a;
+    top: 39rem;
+    display: block;
+    height: 8rem;
+  }
+  .coming-soon {
+    position: absolute;
+    margin-left: 5%;
+    width: 100px;
+    height: 90px;
+    margin-top: -2.6rem;
+  }
+  .c-soon-text {
+    font-family: "lobster14";
+    font-size: 1.5rem;
+    margin-top: -6.2rem;
+    color: white;
+    text-align: center;
+  }
+  .color-paper {
+    width: 95px;
+    height: 95px;
+    margin-left: 80%;
+    margin-top: -20rem;
+  }
+  .c-soon-desc {
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 0.9rem;
+  }
+  .btn2 {
+    background-color: rgb(112, 10, 152);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    font-size: 0.6rem;
+    font-family: Georgia;
+    font-weight: normal;
+    margin-left: 8rem;
+    margin-top: 6rem;
+  }
+  .img-ab {
+    width: 24rem;
+    height: 18rem !important;
+    margin: 0;
+    margin-top: 1.9rem !important;
+    display: flex;
+    align-items: center;
+  }
+  .img-about-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: normal;
+    align-items: baseline;
+  }
+  .img-about {
+    margin-top: 14rem;
+    position: absolute;
+    top: 40rem;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .h5-about {
+    font-size: 12px;
+    color: gray;
+    left: 5.5%;
+    position: relative;
+    top: -18rem;
+  }
+  .text-historia {
+    margin-top: 2rem;
+    left: -15%;
+    position: relative;
+    top: -18rem;
+  }
+  .text-his {
+    left: 1%;
+    right: 1%;
+    font-size: 13px;
+    font-weight: normal;
+    padding-top: 2rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    position: absolute;
+    top: -2rem;
+  }
+  .text-violet {
+    color: white;
+    text-align: center;
+    font-size: 16px !important;
+    font-family: "lobster14";
+    padding-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .btn-ssc {
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgb(112, 10, 152);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    font-size: 10px;
+    font-family: Georgia;
+    font-weight: normal;
+  }
+  .blue-color {
+    padding-bottom: 2rem;
+    position: absolute;
+    width: 100%;
+    background-color: #01518a;
+    top: 45rem;
+    display: block;
+    height: 10rem;
+  }
+  .boton-subs {
+    margin-bottom: 0.5rem;
+  }
+  .dmlogo-b {
+    position: absolute;
+    top: 10rem;
+    height: 130px;
+    width: 400px;
+  }
+  .shop768 {
+    font-size: 10px;
+    font-weight: normal;
+    font-family: Georgia;
+    padding-top: 1rem;
+    font-weight: bold;
+  }
+  .cust-reviews {
+    position: relative;
+    top: 27rem;
+  }
+  .bshop480 {
+    position: absolute;
+    padding-top: 20rem;
+    top: 35rem;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .banner-ctc-c480 {
+    position: absolute;
+    padding-top: 5rem;
+    left: 0;
+    top: 82rem;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .c480r {
+    margin-bottom: -2rem;
+    width: 200px;
+    height: 70px;
+  }
+  .container-shop3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .center-logoinc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  .columna {
+    border: 1px solid black;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    height: 19rem;
+  }
+  .fila {
+    margin: 10px;
+  }
+  .logo-paper-shop {
+    width: 8rem;
+    height: 8rem;
+    margin-top: 1rem;
+    padding: 10px;
+  }
+  .shop3 {
+    position: absolute;
+    top: 18rem;
+  }
+  .btns480 {
+    background-color: rgb(112, 10, 152);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    font-size: 12px;
+    font-family: Georgia;
+    font-weight: normal;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .h768 {
+    font-size: 10px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    padding-top: 2rem;
+  }
+  .img-top-shopo {
+    width: 24rem;
+    height: 23rem;
+    margin-top: -3rem;
+  }
+  .content-pr {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    position: relative;
+  }
+  .h1-cr768 {
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    margin-right: 15rem;
+    text-align: center;
+  }
+  .container-indx {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 20px;
+    top: 8rem;
+    position: absolute;
+    gap: 2px;
+    margin-left: -2rem;
+  }
+  .item {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    min-height: 0;
+    overflow: auto;
+  }
+  .item-a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .c768r {
+    margin-bottom: -2rem;
+    width: 60%;
+  }
+  .item-b {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 5rem;
+  }
+  .item-c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .item-d {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+  }
+  .text-op {
+    margin-left: 2rem;
+    font-size: 9px;
+  }
+  .name-gray {
+    color: gray;
+    margin-left: 50%;
+    font-size: 8px;
+  }
+  .white-bar-footer-about {
+    background-color: white;
+    height: 4rem;
+    position: absolute;
+    width: 100%;
+    top: 56rem;
+    display: block;
+  }
+  .white-bar-footer {
+    background-color: white;
+    height: 4rem;
+    position: absolute;
+    width: 100%;
+    top: 158rem;
+    display: block;
+  }
+  .wctc480 {
+    background-color: white;
+    height: 3rem;
+    position: absolute;
+    width: 100%;
+    top: 92rem;
+    display: block;
+  }
+  .index-wbf {
+    background-color: white;
+    height: 1rem;
+    position: absolute;
+    width: 100%;
+    top: 48rem;
+    display: block;
+    z-index: -1;
+  }
+  footer .white-bar-footer-shop {
+    background-color: white;
+    height: 3rem;
+    position: absolute;
+    width: 100%;
+    top: 60rem;
+    display: block;
+  }
+  footer .redes-footer {
+    margin-top: 1rem;
+    padding-bottom: 0;
+  }
+  .footcopyshop480 {
+    font-size: 12px;
+    text-align: center;
+  }
+  .twitter-logo, .instagram-logo, .facebook-logo {
+    display: none;
+  }
+  .grid-container-about {
+    position: absolute;
+    top: 40rem;
+    right: 30%;
+    left: 30%;
+  }
+  .tabla-config-ab {
+    position: absolute;
+    top: 30rem;
+    left: 25%;
+    right: 25%;
+  }
+  .img-about-1 {
+    position: relative;
+    top: -18rem;
+    width: 250px;
+    height: 160px;
+  }
+  .contr-ct480 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 10px;
+    margin-top: 13rem;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .item {
+    padding: 10px;
+  }
+  .h2contact-t {
+    margin-bottom: 2rem;
+    font-size: 13px;
+  }
+  .h2contact {
+    font-size: 10px;
+    font-weight: normal;
+  }
+  .dire768 {
+    font-size: 10px;
+  }
+  .cc1 {
+    margin-top: 0.7rem;
+  }
+  .h4contact, .h5contact {
+    font-size: 10px;
+  }
+  .direct {
+    font-size: 9px;
+    font-weight: bold;
+  }
+  .message-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mb-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .cg-c {
+    color: gray;
+  }
+  textarea {
+    width: 273.24px !important;
+    resize: vertical;
+  }
+  .btn-c {
+    margin-top: 1rem;
+    width: 80px;
+    display: flex;
+  }
+  .form-label {
+    font-size: 12px;
+  }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  text-align: center;
+}
+
+.fila {
+  display: flex;
+  flex-direction: row;
+}
+
+.c-reviews-ch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.white-bar-footer {
+  background-color: white;
+  height: 4rem;
+}
+
+.redes-footer {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-content: normal;
+  align-items: center;
+}
+
+.twitter-logo, .instagram-logo, .facebook-logo {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@font-face {
+  font-family: "lobster14";
+  src: url(../fonts/Lobster\ 1.4.otf);
+}/*# sourceMappingURL=styles.css.map */
